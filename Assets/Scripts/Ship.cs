@@ -14,8 +14,6 @@ namespace SpaceInvader
     public abstract class Ship : MonoBehaviour
     {   
         
-
-
         [SerializeField] public ShipType type;
         [SerializeField] protected float MovmentSpeed;
         [SerializeField] protected int StartingHealth = 100;

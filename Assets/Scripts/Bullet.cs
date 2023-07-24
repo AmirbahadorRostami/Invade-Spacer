@@ -26,7 +26,7 @@ public class Bullet : MonoBehaviour
         else if(other.tag == "Enemy")
         {
             //Damage the enemy 
-            other.GetComponent<PlayerShip>().takeDamage(10);
+            //other.GetComponent<EnemyShip>().TakeDamage(10);
         }
         
         //Play a Explosion particle

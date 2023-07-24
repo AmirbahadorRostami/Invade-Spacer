@@ -48,8 +48,8 @@ namespace SpaceInvader
 
         public void takeDamage(int amount)
         {
-            TakeDamage(amount);
             PlayerTakeDamage?.Invoke();
+            TakeDamage(amount);
         }
         
         private void move()
