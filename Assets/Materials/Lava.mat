@@ -111,7 +111,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GradientNoiseScale: 9.02
+    - _GradientNoiseScale: 13.1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -124,21 +124,21 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _TimeSpeed: 1.17
-    - _VornoiAngle: 106.02
-    - _VornoiDensity: 7.19
+    - _TimeSpeed: 0.02
+    - _VornoiAngle: 102.5
+    - _VornoiDensity: 57.3
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _outline1Size: 18.7
+    - _outline1Size: 21.2
     - _outline2Size: 3.06
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Layer1Colour: {r: 1, g: 0, b: 0.11694193, a: 1}
-    - _Layer1Speed: {r: 0.1, g: 0, b: 0, a: 0}
+    - _Layer1Speed: {r: 2, g: 2, b: 0, a: 0}
     - _Layer2Color: {r: 1, g: 0.6123013, b: 0, a: 1}
-    - _Layer2Speed: {r: 7.14, g: 0.2, b: 0, a: 0}
+    - _Layer2Speed: {r: 2, g: 2, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _outlineColor: {r: 1, g: 0.9118239, b: 0, a: 1}
   m_BuildTextureStacks: []
