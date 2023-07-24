@@ -19,6 +19,7 @@ public class Bullet : MonoBehaviour
         
         if (other.tag == "Player")
         {
+            Debug.Log("Player Damaged");
             //Damage the player
             other.GetComponent<PlayerShip>().takeDamage(10);
             
@@ -26,7 +27,7 @@ public class Bullet : MonoBehaviour
         else if(other.tag == "Enemy")
         {
             //Damage the enemy 
-            //other.GetComponent<EnemyShip>().TakeDamage(10);
+            other.GetComponent<EnemyShip>().takeDamage(10);
         }
         
         //Play a Explosion particle

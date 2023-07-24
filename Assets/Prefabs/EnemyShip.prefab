@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2408967726936869335}
   - component: {fileID: 2445560568361408917}
   - component: {fileID: 1983498920088740641}
+  - component: {fileID: 7865580340560902463}
+  - component: {fileID: 67761766720050029}
   m_Layer: 0
   m_Name: EnemyShip
   m_TagString: Untagged
@@ -69,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5ee414655744c2c9a8efb95ec5ca6f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: 
+  type: 0
   MovmentSpeed: 10
   StartingHealth: 100
   Health: 0
@@ -92,6 +94,54 @@ MonoBehaviour:
   attackRange: 12
   playerInSightRange: 0
   playerInAttackRange: 0
+--- !u!65 &7865580340560902463
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2525572479322893881}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.8373184, y: 1, z: 2.9814758}
+  m_Center: {x: 0.048137665, y: 0, z: -0.2328589}
+--- !u!54 &67761766720050029
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2525572479322893881}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8637923565470600940
 GameObject:
   m_ObjectHideFlags: 0

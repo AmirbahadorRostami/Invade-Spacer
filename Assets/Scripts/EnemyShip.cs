@@ -49,6 +49,12 @@ namespace SpaceInvader
         if(playerInAttackRange && playerInSightRange) AttackPlayer();
 
     }
+
+    public void takeDamage(int amount)
+    {
+        Debug.Log("Enemy Took damage");
+        TakeDamage(amount);
+    }
     
     private void Roaming()
     {
