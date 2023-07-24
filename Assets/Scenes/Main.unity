@@ -478,7 +478,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 299797704}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1880089582}
+        m_TargetAssemblyTypeName: SpaceInvader.GameManager, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &299797704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,7 +902,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.8270264, y: -40.340027}
+  m_AnchoredPosition: {x: 4.8270264, y: 0}
   m_SizeDelta: {x: -1365.957, y: -764.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &619308358
@@ -1947,7 +1959,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &974871196
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2047,7 +2059,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -797.616, y: 443.978}
+  m_AnchoredPosition: {x: -771, y: 381}
   m_SizeDelta: {x: -1647.251, y: -928.913}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1005917727
@@ -2479,7 +2491,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1329797553}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1880089582}
+        m_TargetAssemblyTypeName: SpaceInvader.GameManager, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1329797553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3265,7 +3289,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -38.999878, y: 25}
+  m_AnchoredPosition: {x: -38.999878, y: 0}
   m_SizeDelta: {x: -1617.337, y: -778.936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1919389385
@@ -3629,7 +3653,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2049208331}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1880089582}
+        m_TargetAssemblyTypeName: SpaceInvader.GameManager, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2049208331
 MonoBehaviour:
   m_ObjectHideFlags: 0

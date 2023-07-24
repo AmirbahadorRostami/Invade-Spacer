@@ -21,7 +21,12 @@ namespace SpaceInvader
             _controller = GetComponent<CharacterController>();
             _MainCamera = Camera.main.transform;
         }
-        
+
+        private void Start()
+        {
+            Debug.Log("Player health: " + Health);
+        }
+
         // Update is called once per frame
         void Update()
         {

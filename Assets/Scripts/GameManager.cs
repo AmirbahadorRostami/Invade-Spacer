@@ -55,6 +55,24 @@ namespace SpaceInvader
             }
         }
 
+
+        public void Restart()
+        {
+            Score = 0;
+            foreach (var Enemy in Enemies)
+            {
+                Destroy(Enemy);
+            }
+            
+            StartGame();
+        }
+
+
+        public void Quit ()
+        {
+            Application.Quit();
+        }
+
         private void OnDisable()
         {
             player.PlayerTakeDamage -= OnPlayerTakeDamageEvent;
@@ -64,11 +82,14 @@ namespace SpaceInvader
         void OnPlayerDiedEvent(ShipType type)
         {
             // Game over
+            Debug.Log("Player is dead");
             // bring up game over menu and restart
+            _UIManager.ChangeUI(UIView.PauseMenu);
         }
         
         void OnPlayerTakeDamageEvent()
         {
+            Debug.Log(player.Health);
             _UIManager.setHealth(player.Health);
         }
     }
